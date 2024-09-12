@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77BAF25E2C92C0610051B22B /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF25D2C92C0610051B22B /* Searchbar.swift */; };
+		77BAF2602C92C0DA0051B22B /* PhotoGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF25F2C92C0DA0051B22B /* PhotoGridItem.swift */; };
+		77F1D52C2C8EE6F000D1DE49 /* FitSagaImageViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D52B2C8EE6F000D1DE49 /* FitSagaImageViewerApp.swift */; };
+		77F1D52E2C8EE6F000D1DE49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D52D2C8EE6F000D1DE49 /* ContentView.swift */; };
+		77F1D5302C8EE6F300D1DE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F1D52F2C8EE6F300D1DE49 /* Assets.xcassets */; };
+		77F1D5332C8EE6F300D1DE49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F1D5322C8EE6F300D1DE49 /* Preview Assets.xcassets */; };
+		77F1D53E2C8EE78400D1DE49 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D53D2C8EE78400D1DE49 /* Photo.swift */; };
+		77F1D5402C8EE7AF00D1DE49 /* UnspalshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D53F2C8EE7AF00D1DE49 /* UnspalshService.swift */; };
+		77F1D5422C8EE7FB00D1DE49 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D5412C8EE7FB00D1DE49 /* PhotoViewModel.swift */; };
+		77F1D5442C8EE84700D1DE49 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D5432C8EE84700D1DE49 /* PhotoDetailView.swift */; };
+		77F1D5462C8EFA0700D1DE49 /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D5452C8EFA0700D1DE49 /* PhotoListView.swift */; };
+		77F1D54A2C90519C00D1DE49 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1D5492C90519C00D1DE49 /* FavoritesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77BAF25D2C92C0610051B22B /* Searchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
+		77BAF25F2C92C0DA0051B22B /* PhotoGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridItem.swift; sourceTree = "<group>"; };
+		77F1D5282C8EE6F000D1DE49 /* FitSagaImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitSagaImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F1D52B2C8EE6F000D1DE49 /* FitSagaImageViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSagaImageViewerApp.swift; sourceTree = "<group>"; };
+		77F1D52D2C8EE6F000D1DE49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77F1D52F2C8EE6F300D1DE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F1D5322C8EE6F300D1DE49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77F1D53D2C8EE78400D1DE49 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		77F1D53F2C8EE7AF00D1DE49 /* UnspalshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnspalshService.swift; sourceTree = "<group>"; };
+		77F1D5412C8EE7FB00D1DE49 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		77F1D5432C8EE84700D1DE49 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		77F1D5452C8EFA0700D1DE49 /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
+		77F1D5492C90519C00D1DE49 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F1D5252C8EE6F000D1DE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F1D51F2C8EE6F000D1DE49 = {
+			isa = PBXGroup;
+			children = (
+				77F1D52A2C8EE6F000D1DE49 /* FitSagaImageViewer */,
+				77F1D5292C8EE6F000D1DE49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F1D5292C8EE6F000D1DE49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F1D5282C8EE6F000D1DE49 /* FitSagaImageViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F1D52A2C8EE6F000D1DE49 /* FitSagaImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				77F1D5392C8EE70C00D1DE49 /* Models */,
+				77F1D53A2C8EE72300D1DE49 /* Services */,
+				77F1D53C2C8EE75300D1DE49 /* Views */,
+				77F1D53B2C8EE74200D1DE49 /* ViewModels */,
+				77F1D52B2C8EE6F000D1DE49 /* FitSagaImageViewerApp.swift */,
+				77F1D52F2C8EE6F300D1DE49 /* Assets.xcassets */,
+				77F1D5312C8EE6F300D1DE49 /* Preview Content */,
+			);
+			path = FitSagaImageViewer;
+			sourceTree = "<group>";
+		};
+		77F1D5312C8EE6F300D1DE49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77F1D5322C8EE6F300D1DE49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77F1D5392C8EE70C00D1DE49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77F1D53D2C8EE78400D1DE49 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77F1D53A2C8EE72300D1DE49 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				77F1D53F2C8EE7AF00D1DE49 /* UnspalshService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77F1D53B2C8EE74200D1DE49 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				77F1D5412C8EE7FB00D1DE49 /* PhotoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		77F1D53C2C8EE75300D1DE49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77F1D52D2C8EE6F000D1DE49 /* ContentView.swift */,
+				77F1D5432C8EE84700D1DE49 /* PhotoDetailView.swift */,
+				77F1D5452C8EFA0700D1DE49 /* PhotoListView.swift */,
+				77F1D5492C90519C00D1DE49 /* FavoritesView.swift */,
+				77BAF25D2C92C0610051B22B /* Searchbar.swift */,
+				77BAF25F2C92C0DA0051B22B /* PhotoGridItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F1D5272C8EE6F000D1DE49 /* FitSagaImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F1D5362C8EE6F300D1DE49 /* Build configuration list for PBXNativeTarget "FitSagaImageViewer" */;
+			buildPhases = (
+				77F1D5242C8EE6F000D1DE49 /* Sources */,
+				77F1D5252C8EE6F000D1DE49 /* Frameworks */,
+				77F1D5262C8EE6F000D1DE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitSagaImageViewer;
+			productName = FitSagaImageViewer;
+			productReference = 77F1D5282C8EE6F000D1DE49 /* FitSagaImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F1D5202C8EE6F000D1DE49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					77F1D5272C8EE6F000D1DE49 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 77F1D5232C8EE6F000D1DE49 /* Build configuration list for PBXProject "FitSagaImageViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F1D51F2C8EE6F000D1DE49;
+			productRefGroup = 77F1D5292C8EE6F000D1DE49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F1D5272C8EE6F000D1DE49 /* FitSagaImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F1D5262C8EE6F000D1DE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F1D5332C8EE6F300D1DE49 /* Preview Assets.xcassets in Resources */,
+				77F1D5302C8EE6F300D1DE49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F1D5242C8EE6F000D1DE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F1D53E2C8EE78400D1DE49 /* Photo.swift in Sources */,
+				77BAF2602C92C0DA0051B22B /* PhotoGridItem.swift in Sources */,
+				77F1D52E2C8EE6F000D1DE49 /* ContentView.swift in Sources */,
+				77F1D5442C8EE84700D1DE49 /* PhotoDetailView.swift in Sources */,
+				77F1D5462C8EFA0700D1DE49 /* PhotoListView.swift in Sources */,
+				77F1D54A2C90519C00D1DE49 /* FavoritesView.swift in Sources */,
+				77BAF25E2C92C0610051B22B /* Searchbar.swift in Sources */,
+				77F1D52C2C8EE6F000D1DE49 /* FitSagaImageViewerApp.swift in Sources */,
+				77F1D5402C8EE7AF00D1DE49 /* UnspalshService.swift in Sources */,
+				77F1D5422C8EE7FB00D1DE49 /* PhotoViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77F1D5342C8EE6F300D1DE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F1D5352C8EE6F300D1DE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F1D5372C8EE6F300D1DE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitSagaImageViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C5KQH5228;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arbaz.FitSagaImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F1D5382C8EE6F300D1DE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitSagaImageViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C5KQH5228;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arbaz.FitSagaImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F1D5232C8EE6F000D1DE49 /* Build configuration list for PBXProject "FitSagaImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F1D5342C8EE6F300D1DE49 /* Debug */,
+				77F1D5352C8EE6F300D1DE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F1D5362C8EE6F300D1DE49 /* Build configuration list for PBXNativeTarget "FitSagaImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F1D5372C8EE6F300D1DE49 /* Debug */,
+				77F1D5382C8EE6F300D1DE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F1D5202C8EE6F000D1DE49 /* Project object */;
+}
