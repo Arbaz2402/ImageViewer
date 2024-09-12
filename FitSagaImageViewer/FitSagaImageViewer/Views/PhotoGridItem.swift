@@ -37,7 +37,7 @@ struct PhotoGridItem: View {
                     EmptyView()
                 }
             }
-            .id(retryCount) 
+            .id(retryCount)
             Text(photo.user.name)
                 .font(.caption)
                 .lineLimit(1)
@@ -48,4 +48,3 @@ struct PhotoGridItem: View {
         }
     }
 }
-

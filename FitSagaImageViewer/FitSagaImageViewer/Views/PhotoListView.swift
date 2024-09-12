@@ -7,7 +7,7 @@ struct PhotoListView: View {
     @State private var searchText = ""
 
     private let columns = [
-        GridItem(.adaptive(minimum: 120)) // Adaptive layout for different screen sizes
+        GridItem(.adaptive(minimum: 120))
     ]
     
     private var filteredPhotos: [Photo] {
@@ -54,7 +54,6 @@ struct PhotoListView: View {
                                     }
                                     .frame(width: (geometry.size.width / CGFloat(columns.count)) - 20)
                                     .onAppear {
-                                      
                                         if photo == filteredPhotos.last {
                                             viewModel.fetchPhotos()
                                         }

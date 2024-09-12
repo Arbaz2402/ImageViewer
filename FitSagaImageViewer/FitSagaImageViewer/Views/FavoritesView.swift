@@ -33,6 +33,5 @@ struct FavoritesView: View {
                 label: { EmptyView() }
             )
         )
-        
     }
 }
