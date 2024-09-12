@@ -1,4 +1,4 @@
-# FitSaga iOS Engineer Take-Home Assignment
+
 
 ## Project Overview
 This iOS application fetches images from the Unsplash API, displays them in a grid layout, and presents the selected image in full screen along with metadata. The application is built using Swift and SwiftUI, adhering to best practices and avoiding third-party libraries.
